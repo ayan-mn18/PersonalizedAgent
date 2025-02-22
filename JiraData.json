@@ -1,0 +1,1262 @@
+{
+  "success": true,
+  "data": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10004",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10004",
+      "key": "CRM-6",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:42.338+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Tasks track small, distinct pieces of work.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "e296ebe2-598a-4190-9e8a-21f1ee3a3a6c",
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "10001",
+          "key": "CRM-2",
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10001",
+          "fields": {
+            "summary": "(Sample) User Management",
+            "status": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+              "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+              "id": "10002",
+              "description": "Epics track collections of related bugs, stories, and tasks.",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+              "name": "Epic",
+              "subtask": false,
+              "avatarId": 10307,
+              "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": "10000_*:*_1_*:*_508_*|*_10002_*:*_1_*:*_0",
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2025-02-22T15:20:42.331+0530",
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-6/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:41.830+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0000f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2025-02-22T15:20:42.338+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10002",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Implement user registration functionality."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) User Registration",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-6/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10003",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10003",
+      "key": "CRM-5",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:42.515+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Tasks track small, distinct pieces of work.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "e296ebe2-598a-4190-9e8a-21f1ee3a3a6c",
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "10001",
+          "key": "CRM-2",
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10001",
+          "fields": {
+            "summary": "(Sample) User Management",
+            "status": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+              "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+              "id": "10002",
+              "description": "Epics track collections of related bugs, stories, and tasks.",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+              "name": "Epic",
+              "subtask": false,
+              "avatarId": 10307,
+              "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-5/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:41.828+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0000n:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2025-02-22T15:20:42.515+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10001",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Create functionality for assigning roles to users."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) User Role Assignment",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-5/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10002",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10002",
+      "key": "CRM-4",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:42.424+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Tasks track small, distinct pieces of work.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "e296ebe2-598a-4190-9e8a-21f1ee3a3a6c",
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "10000",
+          "key": "CRM-1",
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10000",
+          "fields": {
+            "summary": "(Sample) Customer Interaction Tracking",
+            "status": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+              "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+              "id": "10002",
+              "description": "Epics track collections of related bugs, stories, and tasks.",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+              "name": "Epic",
+              "subtask": false,
+              "avatarId": 10307,
+              "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2025-02-22T15:25:33.240+0530",
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-4/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:41.825+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0000n:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-22T15:25:35.766+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Develop reporting functionality for customer interactions."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) Generate Interaction Reports",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-4/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10005",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10005",
+      "key": "CRM-3",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:42.309+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "Tasks track small, distinct pieces of work.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "e296ebe2-598a-4190-9e8a-21f1ee3a3a6c",
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "10000",
+          "key": "CRM-1",
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10000",
+          "fields": {
+            "summary": "(Sample) Customer Interaction Tracking",
+            "status": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+              "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+              "id": "10002",
+              "description": "Epics track collections of related bugs, stories, and tasks.",
+              "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+              "name": "Epic",
+              "subtask": false,
+              "avatarId": 10307,
+              "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2025-02-22T15:25:42.516+0530",
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-3/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:41.823+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i0000f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "updated": "2025-02-22T15:25:41.588+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10001",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "In Progress",
+          "id": "10001",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Implement logging of customer interactions."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) Log Customer Interactions",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-3/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10001",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10001",
+      "key": "CRM-2",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:41.405+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+          "id": "10002",
+          "description": "Epics track collections of related bugs, stories, and tasks.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-2/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:40.660+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|hzzzzz:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2025-02-22T15:20:41.015+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Manage user accounts and permissions within the CRM system."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) User Management",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-03-01",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-2/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "10000",
+      "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/10000",
+      "key": "CRM-1",
+      "fields": {
+        "statuscategorychangedate": "2025-02-22T15:20:41.712+0530",
+        "issuetype": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issuetype/10002",
+          "id": "10002",
+          "description": "Epics track collections of related bugs, stories, and tasks.",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "b697bab2-cdb7-4f32-955d-60e6dbd546ce",
+          "hierarchyLevel": 1
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CRM",
+          "name": "DualDebuggers",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424",
+            "24x24": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=small",
+            "16x16": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+            "32x32": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/universal_avatar/view/type/project/avatar/10424?size=medium"
+          }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-1/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2025-02-22T15:20:40.660+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/priority/3",
+          "iconUrl": "https://ayan-mn18.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "EPIC_LINK_SHOULD_BE_USED",
+            "message": "To set an epic as the parent, use the epic link instead"
+          }
+        },
+        "customfield_10019": "0|i00007:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2025-02-22T15:20:41.499+0530",
+        "status": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/status/10000",
+          "description": "",
+          "iconUrl": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Track and manage customer interactions and communications."
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "(Sample) Customer Interaction Tracking",
+        "creator": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/user?accountId=5ff31235692b790110fd793e",
+          "accountId": "5ff31235692b790110fd793e",
+          "emailAddress": "ayanmansoori44@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/923bfdc39030669fe5bf79d6e9e913cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-1.png"
+          },
+          "displayName": "Ayan Mansuri",
+          "active": true,
+          "timeZone": "Asia/Calcutta",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": "2025-03-08",
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://api.atlassian.com/ex/jira/3a6520c9-fe8e-4791-887c-92681a9bfe9a/rest/api/3/issue/CRM-1/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}

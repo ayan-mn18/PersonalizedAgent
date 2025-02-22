@@ -75,34 +75,63 @@ router.get('/tickets', async (req, res) => {
   }
 });
 
-  // Get project tickets endpoint
-  router.post('/get-project-tickets', async (req, res) => {
-    try {
-      const token = tokenStore.get('jira_token');
-      const { projectKey } = req.body;
-      console.log('Jira token:', token);
-      if (!token) {
-        res.status(401).json({ error: 'Not authenticated with Jira' });
-        return;
-      }
-  
-      if (!projectKey) {
-        res.status(400).json({ error: 'Missing project key' });
-        return;
-      }
-  
-      const jiraClient = new JiraIntegration(token);
-      await jiraClient.getCloudId();
-      const tickets = await jiraClient.getProjectTickets(projectKey as string);
-  
-      res.json({
-        success: true,
-        data: tickets
-      });
-    } catch (error) {
-      console.error('Error fetching Jira project tickets:', error);
-      res.status(500).json({ error: 'Failed to fetch Jira project tickets' });
+ // Get project tickets with development info endpoint
+router.post('/get-project-tickets', async (req, res) => {
+  try {
+    const token = tokenStore.get('jira_token');
+    const { projectKey } = req.body;
+    console.log('Jira token:', token);
+    if (!token) {
+      res.status(401).json({ error: 'Not authenticated with Jira' });
+      return;
     }
-  });
+
+    if (!projectKey) {
+      res.status(400).json({ error: 'Missing project key' });
+      return;
+    }
+
+    const jiraClient = new JiraIntegration(token);
+    await jiraClient.getCloudId();
+    const tickets = await jiraClient.getProjectTicketsWithDevInfo(projectKey);
+
+    res.json({
+      success: true,
+      data: tickets
+    });
+  } catch (error) {
+    console.error('Error fetching Jira project tickets:', error);
+    res.status(500).json({ error: 'Failed to fetch Jira project tickets' });
+  }
+});
+
+// Get ticket details endpoint
+router.get('/get-ticket-details', async (req, res) => {
+  try {
+    const token = tokenStore.get('jira_token');
+    const { issueKey } = req.query;
+    console.log('Jira token:', token);
+    if (!token) {
+      res.status(401).json({ error: 'Not authenticated with Jira' });
+      return;
+    }
+
+    if (!issueKey) {
+      res.status(400).json({ error: 'Missing issue key' });
+      return;
+    }
+
+    const jiraClient = new JiraIntegration(token);
+    await jiraClient.getCloudId();
+    const ticket = await jiraClient.getTicketDetails(issueKey as string);
+    res.json({
+      success: true,
+      data: ticket
+    });
+  } catch (error) {
+    console.error('Error fetching Jira ticket details:', error);
+    res.status(500).json({ error: 'Failed to fetch Jira ticket details' });
+  }
+});
 
 export const jiraRouter = router;
