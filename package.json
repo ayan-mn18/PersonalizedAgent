@@ -36,6 +36,7 @@
     "google-auth-library": "^9.15.0",
     "helmet": "^8.0.0",
     "ioredis": "^5.4.1",
+    "jira-client": "^8.2.2",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "openai": "^4.73.0",

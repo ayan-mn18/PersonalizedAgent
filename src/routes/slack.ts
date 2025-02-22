@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { WebClient } from '@slack/web-api';
 import { SlackIntegration } from '../jobs/slack';
 import dotenv from 'dotenv';
+import { tokenStore } from '@/config/token';
 
 const router = Router();
 
@@ -49,8 +50,6 @@ export const SLACK_CONFIG = {
   ]
 };
 
-// Store tokens in memory (replace with a proper database in production)
-const tokenStore = new Map<string, string>();
 
 // OAuth initialization endpoint
 router.get('/oauth/init', (req, res) => {
@@ -81,7 +80,7 @@ router.get('/oauth/callback', async (req, res) => {
     console.log('OAuth response:', response);
     // Check for user token
     if (response.authed_user?.access_token) {
-      tokenStore.set('user_token', response.authed_user.access_token);
+      tokenStore.set('slack_token', response.authed_user.access_token);
       
       res.json({
         success: true,
@@ -100,7 +99,7 @@ router.get('/oauth/callback', async (req, res) => {
 // Get all messages endpoint
 router.get('/messages', async (req, res) => {
   try {
-    const token = req.body.slackToken;
+    const token = tokenStore.get('slack_token');
     if (!token) {
        res.status(401).json({ error: 'Not authenticated with Slack' });
        return;
@@ -142,7 +141,8 @@ router.get('/messages', async (req, res) => {
 // Send message endpoint
 router.post('/send-message', async (req, res) => {
   try {
-    const { slackToken, channelId, text } = req.body;
+    const slackToken = tokenStore.get('slack_token');
+    const { channelId, text } = req.body;
     if (!slackToken || !channelId || !text) {
       res.status(400).json({ error: 'Missing required parameters' });
       return;
