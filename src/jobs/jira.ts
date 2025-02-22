@@ -108,9 +108,6 @@ async getProjectTickets(projectKey: string): Promise<SanitizedJiraIssue[]> {
       },
       description: issue.fields.description
     }));
-
-    // const sanitizer = new JiraDataSanitizer();
-    // return sanitizer.sanitizeJiraResponse(response.data.issues);
   } catch (error) {
     console.error('Error fetching Jira project tickets:', error);
     return [];
